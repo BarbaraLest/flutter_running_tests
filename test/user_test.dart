@@ -1,7 +1,5 @@
-import 'package:dio/dio.dart';
 import 'package:flutter_application_1/user.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mockito/mockito.dart';
 
 
 
@@ -17,7 +15,7 @@ void main() {
     user.birthday();
 
     // ASSERT
-    expect(user.age, 25);
-    //expect(user.age, 26);
+   // expect(user.age, 25);
+    expect(user.age, 26);
   });
 }
